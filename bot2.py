@@ -11,7 +11,7 @@ init(autoreset=True)
 
 # === CONFIG ===
 CHAIN_ID = 688688
-RPC_URL = "https://your-rpc-url-here"  # ✅ Pharos testnet RPC
+RPC_URL = "https://api.zan.top/node/v1/pharos/testnet/54b49326c9f44b6e8730dc5dd4348421"  # ✅ Pharos testnet RPC
 GAS_LIMIT = 400000
 REGISTRATION_DURATION = 60 * 60 * 24 * 365  # 1 year
 RESOLVER = Web3.to_checksum_address("0x0000000000000000000000000000000000000000")
